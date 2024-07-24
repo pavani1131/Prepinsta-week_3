@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Age Calculator</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>The Pet Age Calculator</h1>
+    <form id="petAgeForm">
+        <label for="petAge">Pet Age:</label>
+        <input type="number" id="petAge" name="petAge" required>
+        <br>
+        <label for="conversionRate">Conversion Rate (default is 7):</label>
+        <input type="number" id="conversionRate" name="conversionRate" step="0.1">
+        <br>
+        <button type="submit">Calculate</button>
+    </form>
+    <div id="results"></div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance Converter</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>The Distance Converter</h1>
+    <form id="distanceForm">
+        <label for="distance">Distance:</label>
+        <input type="number" id="distance" name="distance" step="0.01" required>
+        <br>
+        <label for="unit">Convert from:</label>
+        <select id="unit" name="unit">
+            <option value="meters">Meters to Feet</option>
+            <option value="feet">Feet to Meters</option>
+        </select>
+        <br>
+        <button type="submit">Convert</button>
+    </form>
+    <div id="results"></div>
+</body>
+</html>
